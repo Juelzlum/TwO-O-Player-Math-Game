@@ -1,7 +1,11 @@
 # all the games files will be here 
 
-require './question.rb'
-require './player.rb'
-require './game.rb'
+require './question'
+require './player'
+require './game'
 
+
+newGame = Game.new
+
+newGame.start
 

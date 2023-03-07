@@ -2,8 +2,8 @@ class Player
    attr_reader :name, :lives
 
   def initialize
-    @name : name
-    @lives : 3
+    @name = name
+    @lives = 3
   end
 
   def takeLives
@@ -24,4 +24,8 @@ class Player
     else
       takeLives
       puts "You are Wack"
+  end
+end
+
+
 end

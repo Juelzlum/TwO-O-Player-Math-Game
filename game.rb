@@ -2,8 +2,8 @@ class Game
 
 def initialize
 @name = name
-@player1 = new Player.new('Player 1')
-@player2 = new Player.new('Player 2')
+@player1 = Player.new('Player 1')
+@player2 = Player.new('Player 2')
 end
 
 def start 
